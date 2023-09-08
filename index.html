@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNGx-Stage-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="slack-profile-picture.png" alt="Adeyinka Akinsanya" data-testid="slackDisplayImage">
+        <div>
+            <span>Slack Name: </span>
+            <span id="slackUserName" data-testid="slackUserName">Adeyinka Akinsanya</span>
+        </div>
+        <div>
+            <span>Current Day: </span>
+            <span id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></span>
+        </div>
+        <div>
+            <span>UTC Time: </span>
+            <span id="currentUTCTime" data-testid="currentUTCTime"></span>
+        </div>
+        <div>
+            <span>Track: </span>
+            <span data-testid="myTrack">Frontend</span>
+        </div>
+        <a href="https://github.com/Skeby/HNGx-Stage-1" data-testid=“githubURL”>Github Repository</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
