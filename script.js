@@ -7,7 +7,7 @@ elementCurrentUTCTime.textContent = getCurrentUTCTime();
 
 function getCurrentDayOfTheWeek() {
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    const currentDayOfTheWeek = daysOfWeek[currentDate.getUTCDay()];
+    const currentDayOfTheWeek = daysOfWeek[currentDate.getDay()];
     return currentDayOfTheWeek;
 }
 
